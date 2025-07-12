@@ -3,10 +3,13 @@
   "main": "entrypoint.js",
   "version": "1.0.0",
   "scripts": {
-    "start": "expo start --dev-client",
-    "android": "expo run:android",
-    "ios": "expo run:ios",
-    "lint": "expo lint"
+  "start": "expo start --web",
+  "build": "expo export --platform web",
+  "android": "expo run:android",
+  "ios": "expo run:ios",
+  "lint": "expo lint"
+}
+
   },
   "dependencies": {
     "@ethersproject/shims": "^5.8.0",
