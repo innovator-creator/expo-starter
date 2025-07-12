@@ -22,6 +22,18 @@ export default function RootLayout() {
     >
       <Stack>
         <Stack.Screen name="index" />
+        <Stack.Screen name="onboarding" />
+        <Stack.Screen name="home" />
+        // <Stack.Screen name="profile" />
+        // <Stack.Screen name="wallet" />
+        // <Stack.Screen name="transactions" />
+        // <Stack.Screen name="send" />
+        // <Stack.Screen name="receive" />
+        // <Stack.Screen name="settings" />
+        // <Stack.Screen name="security" />
+        // <Stack.Screen name="notifications" />
+        // <Stack.Screen name="help" />
+        // <Stack.Screen name="about" />
       </Stack>
       <PrivyElements />
     </PrivyProvider>
